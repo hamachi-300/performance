@@ -81,7 +81,9 @@ header p {
 .content {
     text-align: center;
     background-color:var(--white);
-    padding: 100px 100px;
+    padding: 1vw;
+    width: 100%;
+    padding-bottom: 100px;
 }
 
 .content-header {
@@ -89,19 +91,14 @@ header p {
     font-weight: bold;
     text-decoration: underline solid 2px var(--black);
     margin-bottom: 100px;
+    padding-top: 5vw;
 }
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     width: 100%;
-    grid-gap: 100px;
-}
-
-@media (max-width=490px) {
-    .project-grid {
-        grid-template-columns: 1fr;
-    }
+    grid-gap: 2vw;
 }
 
 .project-grid a {
@@ -112,7 +109,7 @@ header p {
 }
 
 .project-img {
-    height: 350px;
+    height: 20vw;
     width: 100%;
     object-fit: cover;
 }
@@ -145,4 +142,63 @@ footer p {
 
 footer a {
     padding: 0 20px;
+}
+
+@media screen and (max-width: 600px){
+    .project-img {
+        width: 70%;
+        height: 100px;
+    }
+
+    .title, .description {
+        font-size: 50%;
+    }
+
+    .content {
+        padding: 0;
+        padding-bottom: 25px;
+    }
+
+    .content-header {
+        padding-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    header h1 {
+        font-size: 80%;
+    }
+
+    header p {
+        font-size: 40%;
+    }
+
+    .project-grid a {
+        padding: 2px;
+        width: 50%;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        color: var(--white);
+        text-align: center;
+        padding: 25px 0;
+        font-size: 50%;
+    }
+
+    footer img {
+        width: 25px;
+    }
+
+    footer p {
+        opacity: 0.5;
+        padding-bottom: 25px;
+    }
+    
+    footer a {
+        padding: 0 10px;
+    }
+
 }
