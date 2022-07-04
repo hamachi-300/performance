@@ -89,7 +89,6 @@ header p {
 .content-header {
     opacity: 0.7;
     font-weight: bold;
-    text-decoration: underline solid 2px var(--black);
     margin-bottom: 100px;
     padding-top: 5vw;
 }
@@ -176,16 +175,17 @@ footer a {
     .content-header {
         padding-top: 40px;
         margin-bottom: 50px;
+        font-size: 160%;
     }
 
     .title {
         color: var(--black);
-        padding-top: 10px;
+        padding-top: 5px;
     }
     
     .description {
         color:var(--gray);
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     header {
@@ -202,7 +202,7 @@ footer a {
 
     .project-grid a {
         padding: 2px;
-        width: 50%;
+        width: 75%;
     }
 
     .project-grid {
