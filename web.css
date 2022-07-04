@@ -58,7 +58,11 @@ header {
     background-color: var(--black);
 }
 
-#thai, #english {
+#github:hover {
+    background-color: #3F4E4F;
+}
+
+li {
     color: var(--white);
     float: right;
     background-color: var(--black);
@@ -105,6 +109,17 @@ header p {
     width: 90%;
     background-color: var(--dark-brown);
     justify-self: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.project-grid a:hover{
+    background-color: rgb(148, 114, 84);
+}
+
+/* Active language*/
+.active {
+    background-color: #A27B5C;
 }
 
 .project-img {
@@ -189,7 +204,7 @@ footer a {
     }
 
     header {
-        margin-top: 35px
+        margin-top: 35px;
     }
 
     header h1 {
@@ -209,7 +224,7 @@ footer a {
 
     .project-grid {
         grid-template-columns: 1fr;
-        grid-gap: 10vw
+        grid-gap: 10vw;
     }
 
     footer {
