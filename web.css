@@ -49,7 +49,7 @@ header {
     border-bottom: 2px solid var(--gray);
 }
 
-li {
+#nav-bar li {
     padding: 10px;
 }
 
@@ -62,7 +62,7 @@ li {
     color: var(--white);
     float: right;
     background-color: var(--black);
-    font-size: 150%;
+    font-size: 175%;
 }
 
 header h1 {
@@ -145,6 +145,20 @@ footer a {
 }
 
 @media screen and (max-width: 600px){
+
+    #nav-bar li {
+        padding: 5px;
+    }
+    
+    #thai, #english {
+        font-size: 125%;
+    }
+
+    #github img {
+        width: 20px;
+        height: 20px;
+    }
+
     .project-img {
         width: 70%;
         height: 100px;
@@ -165,11 +179,11 @@ footer a {
     }
 
     header h1 {
-        font-size: 80%;
+        font-size: 150%;
     }
 
     header p {
-        font-size: 40%;
+        font-size: 50%;
     }
 
     .project-grid a {
