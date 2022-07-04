@@ -178,6 +178,20 @@ footer a {
         margin-bottom: 50px;
     }
 
+    .title {
+        color: var(--black);
+        padding-top: 10px;
+    }
+    
+    .description {
+        color:var(--gray);
+        padding-top: 10px;
+    }
+
+    header {
+        margin-top: 35px
+    }
+
     header h1 {
         font-size: 150%;
     }
