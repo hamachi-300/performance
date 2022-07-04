@@ -203,11 +203,13 @@ footer a {
     .project-grid a {
         padding: 5px;
         width: 75%;
+        overflow: hidden;
+        height: auto;
     }
 
     .project-grid {
         grid-template-columns: 1fr;
-        grid-gap: 15vw
+        grid-gap: 10vw
     }
 
     footer {
@@ -224,11 +226,11 @@ footer a {
     footer p {
         opacity: 0.5;
         padding-bottom: 25px;
-        font-size: 200%;
+        font-size: 150%;
     }
 
     footer h1 {
-        font-size: 500%;
+        font-size: 400%;
     }
     
     footer a {
