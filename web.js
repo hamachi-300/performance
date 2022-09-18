@@ -42,7 +42,7 @@ var data = {
     "english":
     {
         "header_h1": "Performance",
-        "header_p": "My name is plume, this is my performance web collection.",
+        "header_p": "Hey, I make this web for keep my projects.",
         "content_header": "This is my projects",
         "title_1" : "Geolocation",
         "descript_1" : "This website will show you where are you location",
@@ -57,7 +57,7 @@ var data = {
     "thai":
     {
         "header_h1": "ผลงาน",
-        "header_p": "ชื่อปลื้มครับ เว็ปนี้คือเว็ปไว้เก็บผลงานของผม",
+        "header_p": "สวัสดีครับ ผมทำเว็ปนี้ไว้ใช้เก็บผลงาน",
         "content_header": "นี้คือผลงานของผม",
         "title_1" : "Geolocation",
         "descript_1" : "เว็ปไซต์นี้จะแสดงตำแหน่งปัจจุบันของคุณ",
