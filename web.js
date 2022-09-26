@@ -42,8 +42,8 @@ var data = {
     "english":
     {
         "header_h1": "Performance",
-        "header_p": "My name is plume, this is my performance web collection.",
-        "content_header": "This is my projects",
+        "header_p": "Hi, this website I made it for collect my projects.",
+        "content_header": "Projects",
         "title_1" : "Geolocation",
         "descript_1" : "This website will show you where are you location",
         "title_2" : "Pig",
@@ -57,15 +57,15 @@ var data = {
     "thai":
     {
         "header_h1": "ผลงาน",
-        "header_p": "ชื่อปลื้มครับ เว็ปนี้คือเว็ปไว้เก็บผลงานของผม",
-        "content_header": "นี้คือผลงานของผม",
+        "header_p": "สวัสดีครับ เว็ปนี้ผมสร้างไว้เก็บผลงานต่างๆ",
+        "content_header": "Projects",
         "title_1" : "Geolocation",
         "descript_1" : "เว็ปไซต์นี้จะแสดงตำแหน่งปัจจุบันของคุณ",
         "title_2" : "Pig",
         "descript_2" : "เว็ปไซต์นี้เป็นเว็ปที่ผมทำเล่นๆ ขณะเรื่ยนเรื่อง html และ css",
         "title_3" : "Telescope Arecibo",
         "descript_3" : "เว็ปไซต์นี้มีระบบ responsive สำหรับโทรศัพท์ แทปเล็ตและคอมพิวเตอร์",
-        "footer_h1": "ติดต่อได้ที่",
+        "footer_h1": "ติดต่อ",
         "footer_p": "< คลิกไอคอนด้านล่างเพื่อติดต่อ >"
     }
 }
